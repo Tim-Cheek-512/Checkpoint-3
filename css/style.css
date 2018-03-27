@@ -1,0 +1,30 @@
+html{
+  font-size: 1.7em;
+  color: #fff;
+  margin: 0 auto;
+  background: #4f4f4f;
+  margin-left: 30%;
+}
+body{
+}
+#click-area{
+  height: 5em;
+  width: 5em;
+  background: red;
+  border: 3px dotted black;
+}
+button{
+  background-color: aliceblue;
+  color: grey;
+  border: 3px solid black;
+  height: 2em;
+  width: 8em;
+  display: list-item;
+  margin-top: 15px;
+}
+#perSecond {
+  font-size: .6em;
+}
+#score {
+  font-size: 3em;
+}
