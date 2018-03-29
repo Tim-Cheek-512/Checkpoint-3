@@ -2,25 +2,54 @@ html{
   font-size: 1.7em;
   color: #fff;
   margin: 0 auto;
-  background: #4f4f4f;
-  margin-left: 30%;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
 }
-body{
+h1{
+  text-align: center;
+  text-shadow: -31px -23px 15px rgba(0, 0, 255, 1);
 }
-#click-area{
-  height: 5em;
-  width: 5em;
-  background: red;
-  border: 3px dotted black;
+#clickArea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow:  -53px -39px 165px 4px rgba(26,25,26,1);
+  margin-top: 3%;
+  cursor: pointer;
 }
-button{
-  background-color: aliceblue;
-  color: grey;
-  border: 3px solid black;
-  height: 2em;
-  width: 8em;
-  display: list-item;
-  margin-top: 15px;
+#perSecond {
+  text-align: center;
+}
+#currentScore {
+  margin: auto;
+  margin-bottom: 5px;
+  width:150px;
+  height:50px;
+  border:3px solid black;
+  background-color: #3c8cff;
+  text-align: center;
+  font-size: 48px;
+}
+#upgrades{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+.button {
+  width:10em;
+  height:3em;
+  border:1px solid black;
+  border-radius:15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3c8cff;
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+  margin-left: 5px;
 }
 #perSecond {
   font-size: .6em;
