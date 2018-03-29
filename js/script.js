@@ -5,7 +5,12 @@ $(document).ready(function(){
 var currentScore = document.getElementById('currentScore');
 var perSecond = document.getElementById('perSecond');
 var clickArea = getElementsByTagName('img');
-var button = document.getElementsByClassName('button')
+var button = document.getElementsByClassName('button');
+
+$('clickArea').on('click', function(){
+  count = 0;
+  
+})
 
   // var button = document.getElementById("clickme"),
   //   count = 0;
